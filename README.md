@@ -16,7 +16,7 @@ Bu projede, NASA günün fotoğrafını göstermek için bir uygulama geliştire
 - Bu gerçekten eğlenceli bir proje ve bitirdiğinizde ailenize ve arkadaşlarınıza gösterebileceğiniz bir proje.
 - Sıfırdan başlayacak ve tüm uygulamayı oluşturacaksın.
 - Bu proje için izlemeniz gereken herhangi bir tasarım spesifikasyonunuz yok, bu nedenle önce temel bir çerçeve oluşturarak başlamak isteyebilirsin. Başlangıçta basit bir çerçeve oluşturun, çünkü NASA'dan hangi verileri alacağını bilmiyorsun.
-- Verileri çektiğinde, beklediğinizden daha fazlası veya beklediğinden daha azı olabilir, dolayısıyla tasarım planların değişebilir. Bu tamamen iyi ve çok normal. Sadece uygun ayarlamaları yap ve ilerle!
+- Verileri çektiğinde, beklediğinizdenn daha fazlası veya beklediğinden daha azı olabilir, dolayısıyla tasarım planların değişebilir. Bu tamamen iyi ve çok normal. Sadece uygun ayarlamaları yap ve ilerle!
 
 ## Talimatlar
 
