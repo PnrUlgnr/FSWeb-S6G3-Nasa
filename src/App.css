@@ -1,11 +1,19 @@
 .App {
   width: 70%;
   text-align: center;
-  margin:auto;
+  margin: auto;
   margin-bottom:100px;
 }
 
+.App img{
+  width: 100%;
 
+}
+
+.App>div{
+  display:flex;
+  justify-content: space-between;
+}
 
 
 
