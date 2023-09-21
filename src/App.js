@@ -4,13 +4,20 @@ import data from "./data";
 import Image from "./Image";
 import Video from "./Video";
 import axios from "axios";
-
+import Arama from "./arama.js";
 function App() {
   const [veri, setVeri] = useState(data);
+  const[arama, setArama]= useState("2023-08-08");
+
+const aramaHandler=(event)=>{
+  setArama(event.target.value)
+}
+  
 useEffect(
   
   ()=>{
-    const url="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
+    const url="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date="+ arama;
+    
 axios.get(url)
 .then(response =>{
   setVeri(response.data)
@@ -19,11 +26,13 @@ axios.get(url)
 }).catch(err=>{
   console.log("error",err);
 })
-},[]
+},[arama]
 )
 
   return (
+    
     <div className="App">
+      <Arama arama={arama} aramaHandler={aramaHandler}/>
     {
       veri.media_type=="image"
       ?<Image url= {veri.hdurl}/>
